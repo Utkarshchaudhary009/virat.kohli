@@ -45,7 +45,7 @@ Here's an overview of the project structure:
 
 ### Option 1: Live Hosting
 
-visit the ([@virat.kohli](https://utkarshchaudhary009.github.io/virat.kohli/) to explore the site in action.
+visit the [virat.kohli](https://utkarshchaudhary009.github.io/virat.kohli/) to explore the site in action.
 
 ### Option 2: Local Setup
 
