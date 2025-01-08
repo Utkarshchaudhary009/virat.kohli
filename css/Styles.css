@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('../img/hero-image.jpg') no-repeat center center/cover; /* Set background to body */
+  background: url('../img/Hero-image.jpg') no-repeat center center/cover; /* Set background to body */
   background-size: cover;
   color: #FAF7F0;
   overflow-x: hidden;
