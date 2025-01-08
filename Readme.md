@@ -47,17 +47,17 @@ Here's an overview of the project structure:
 
 ### Option 1: Live Hosting
 
-If this project is hosted, visit the [live website](https://example-link.com) to explore the site in action.
+visit the [@virat.kohli]([https://example-link.com](https://utkarshchaudhary009.github.io/virat.kohli/)) to explore the site in action.
 
 ### Option 2: Local Setup
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/virat-kohli-fan-website.git
+   [git clone https://github.com/your-username/virat-kohli-fan-website.git](https://github.com/Utkarshchaudhary009/virat.kohli.git)
    ```
 2. Navigate to the project folder:
    ```bash
-   cd virat-kohli-fan-website
+   cd virat-kohli
    ```
 3. Open `index.html` in your browser or use a local server (e.g., [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)).
 
@@ -68,7 +68,7 @@ If this project is hosted, visit the [live website](https://example-link.com) to
    - Read his inspiring **Biography**.
    - Dive into his **Career Stats** and see the numbers that define greatness.
    - Browse the **Gallery** for moments frozen in time.
-   - Leave your thoughts in the **Comments Section** and engage with other fans.
+   - Leave your thoughts in the **Comments Section**.
 
 ## ❤️ Acknowledgments
 
