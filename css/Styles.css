@@ -1,0 +1,129 @@
+/* General Reset */
+body {
+  
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../img/hero-image.jpg') no-repeat center center/cover; /* Set background to body */
+  background-size: cover;
+  color: #FAF7F0;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.091);
+  /* background:rgb(35, 35, 35); */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FAF7F0;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #B17457;
+  text-shadow: 0 0 10px #B17457;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 330px; /* Shift the hero section 100px to the right */
+  padding-right:0px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+  max-width: 800px;
+  color: #FAF7F0;
+  padding-bottom: 120px;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #FAF7F0;
+  text-transform: uppercase;
+}
+
+.hero-content .hero-subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 20px 0;
+  line-height: 2rem;
+}
+
+.explore-btn {
+  background: #B17457;
+  color: #FAF7F0;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration:none;
+}
+
+.explore-btn:hover {
+  background: #FAF7F0;
+  color: #B17457;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f0f0f;
+  font-size: 1rem;
+  color: #cccccc;
+  letter-spacing: 1px;
+}

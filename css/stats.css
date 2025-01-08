@@ -1,0 +1,131 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #FAF7F0;
+}
+
+/* Navbar (Already Provided) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.091);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FAF7F0;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #B17457;
+  text-shadow: 0 0 10px #B17457;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('../img/stats-bg.jpg') no-repeat center center/cover;
+  position: relative;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #FAF7F0;
+  margin-top: 300px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Stats Section */
+.stats-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: #292929;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.stat-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #B17457;
+}
+
+.stat-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stat-card ul li {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f0f0f;
+  font-size: 1rem;
+  color: #cccccc;
+  letter-spacing: 1px;
+}

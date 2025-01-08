@@ -1,0 +1,164 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #FAF7F0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.091);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffff;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #FAF7F0;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #B17457;
+    text-shadow: 0 0 10px #B17457;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 60vh;
+    background: url('comments-bg.jpg') no-repeat center center/cover;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* Comments Section */
+  .comments-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .comments-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #B17457;
+  }
+  
+  .comments-form {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: left;
+  }
+  
+  #comment-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background: #222;
+    color: #FAF7F0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  #comment-box::placeholder {
+    color: #888;
+  }
+  
+  #submit-comment {
+    margin-top: 10px;
+    background: #B17457;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #submit-comment:hover {
+    background: #a0634a;
+  }
+  
+  /* Display Section */
+  .comments-display {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .comments-display h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  #comments-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #comments-list li {
+    background: #222;
+    color: #FAF7F0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f0f0f;
+    font-size: 1rem;
+    color: #cccccc;
+    letter-spacing: 1px;
+  }
+  
+  .timestamp {
+    font-size: 0.9rem;
+    color: #888;
+    margin-left: 5px;
+  }
+  
