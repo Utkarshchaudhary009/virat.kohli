@@ -24,7 +24,7 @@ This project is built using modern web development technologies:
 Here's an overview of the project structure:
 
 ```copy
-/project-folder
+/virat-kohli
 ├── index.html           # Home page
 ├── virat.html           # Biography page
 ├── stats.html           # Career stats page
@@ -45,17 +45,17 @@ Here's an overview of the project structure:
 
 ### Option 1: Live Hosting
 
-visit the [@virat.kohli]([https://example-link.com](https://utkarshchaudhary009.github.io/virat.kohli/)) to explore the site in action.
+visit the ([@virat.kohli](https://utkarshchaudhary009.github.io/virat.kohli/) to explore the site in action.
 
 ### Option 2: Local Setup
 
 1. Clone this repository:
    ```bash
-   [git clone https://github.com/your-username/virat-kohli-fan-website.git](https://github.com/Utkarshchaudhary009/virat.kohli.git)
+   git clone https://github.com/Utkarshchaudhary009/virat.kohli.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd virat-kohli
+   cd virat.kohli
    ```
 3. Open `index.html` in your browser or use a local server (e.g., [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)).
 
