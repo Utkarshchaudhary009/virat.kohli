@@ -1,5 +1,3 @@
-Here’s a professional yet interactive `README.md` for your project:
-
 # Virat Kohli - The Run Machine
 
 Welcome to the **Virat Kohli Fan Website**, a tribute to the legend of modern cricket, the "Chase Master" himself! This project is a visually appealing, user-friendly website dedicated to showcasing Virat Kohli's journey, achievements, and memorable moments.
